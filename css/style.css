@@ -1,0 +1,341 @@
+    * {
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    * {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #ff523b;
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        height: 250px;
+    }
+    
+    .menu ul {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .menu li {
+        margin-top: 200px;
+        float: left;
+    }
+    
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .menu li a:hover {
+        background-color: #111;
+    }
+    
+    .logo img {
+        float: left;
+        width: 15%;
+    }
+    
+    .logo {
+        width: 100vw;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+    }
+    
+    p {
+        color: #555;
+    }
+    
+    .container {
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .col-2 {
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    
+    .col-2 img {
+        max-width: 100%;
+        padding: 50px 0;
+    }
+    
+    .col-2 h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    
+    .header {
+        background: radial-gradient(#fff, rgb(110, 63, 25));
+    }
+    
+    .header .row {
+        margin-top: 70px;
+    }
+    
+    .col-4 {
+        flex-basis: 35%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+        transition: transform 0.5s;
+    }
+    
+    .col-4 img {
+        width: 50%;
+        float: left;
+        padding-right: 10px;
+    }
+    
+    .title {
+        text-align: center;
+        margin: 0 auto 80px;
+        position: relative;
+        line-height: 60px;
+        color: #555;
+    }
+    
+    .title::after {
+        content: '';
+        background: #ff523b;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    h4 {
+        color: #555;
+        font-weight: normal;
+        padding-left: 15px;
+    }
+    
+    .description {
+        display: inline;
+    }
+    
+    .col4- p {
+        font-size: 14px;
+    }
+    
+    .rating .fa {
+        color: #ff523b;
+    }
+    
+    .col-4:hover {
+        transform: translateY(-5px) scale(1.1)
+    }
+    
+    .button {
+        display: inline-block;
+        background: #777777;
+        color: #fff;
+        padding: 8px 8px;
+        border-radius: 30px;
+        transition: background 0.5s;
+    }
+    
+    .button:hover {
+        background: #534a4a;
+    }
+    /*---------testimonial-------*/
+    
+    .testimonial {
+        padding-top: 100px;
+    }
+    
+    .testimonial .col-3 {
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.5s;
+    }
+    
+    .testimonial .col-3 img {
+        width: 50px;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    
+    .testimonial .col-3:hover {
+        transform: translateY(-10px);
+    }
+    
+    .fa.fa-quote-left {
+        color: #570c02;
+    }
+    /*----------foot---------*/
+    
+    .foot {
+        background: #000;
+        color: #8a8a8a;
+        font-size: 14px;
+        padding: 60px 0 20px;
+    }
+    
+    .foot p {
+        color: #8a8a8a;
+    }
+    
+    .foot h3 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1,
+    .footer-col-2 {
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1 {
+        flex-basis: 30%;
+    }
+    
+    .footer-col-2 {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    
+    .menu-icon {
+        width: 28px;
+        margin-left: 20px;
+        display: none;
+    }
+    /*-----------payment-----------------*/
+    
+    .checkout .container {
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+    
+    .checkout input[type=text] {
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    
+    .checkout label {
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .checkout .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+    }
+    
+    .checkout .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+    .checkout .btn:hover {
+        background-color: #45a049;
+    }
+    
+    .checkout a {
+        color: #2196F3;
+    }
+    
+    .checkout hr {
+        border: 1px solid lightgrey;
+    }
+    
+    .checkout span.price {
+        float: right;
+        color: grey;
+    }
+    /*---------------succes page----------*/
+    /*----------- media query for menu ----------*/
+    
+    @media only screen and (max-width: 800px) {
+        body {
+            margin: 0px;
+        }
+        .col-2 .logo {
+            width: 70%;
+        }
+        .menu ul {
+            margin: 0 0 0 10vw;
+        }
+        .logo img {
+            float: unset;
+            margin: 0 0 0 20vw;
+            width: 60%;
+        }
+        .menu li {
+            margin: 0 auto;
+            display: inline-block;
+        }
+        .menu li a {
+            font-size: 12px;
+        }
+        .menu li a:hover {
+            background-color: unset;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) and (min-width: 430px) {
+        .menu ul {
+            padding-bottom: 10px;
+        }
+        .logo img {
+            float: unset;
+            margin: 0 0 0 0;
+            width: 30%;
+        }
+        .row h1 {
+            font-size: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 380px) {
+        .row h1 {
+            font-size: 20px;
+        }
+    }
